@@ -404,10 +404,14 @@ header a {
 .block_rri5 img {
   display: inline-block;
   vertical-align: top;
-  width: 53.5%;
+  /* width: 53.5%; */
+  height: 200px;
+  width: 200px;
 }
 .block_rri5 img:last-child {
-  width: 41%;
+  /* width: 41%; */
+  height: 200px;
+  width: 200px;
 }
 .block_rri7 {
   text-align: center;
@@ -572,7 +576,8 @@ header a {
   display: none !important;
 }
 .slow_rot {
-  max-width: 500px;
+  max-width: 100%;
+  width: 210px;
 }
 .link_tt {
   text-decoration: underline;
